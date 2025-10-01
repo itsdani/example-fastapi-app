@@ -1,0 +1,41 @@
+[project]
+name = "example-fastapi-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.118.0",
+    "htpy>=25.8.1",
+    "itsdani-logging>=0.1.1",
+    "pydantic>=2.11.9",
+    "pydantic-settings>=2.11.0",
+    "pyyaml>=6.0.3",
+    "uvicorn>=0.37.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.9.0",
+    "isort>=6.0.1",
+    "pytest>=8.4.2",
+]
+
+[tool.black]
+preview = true
+unstable = true
+
+[tool.isort]
+profile = "black"
+known_first_party = "itsdani"
+
+[[tool.uv.index]]
+name = "itsdani-virtual"
+url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/"
+
+[tool.uv.build-backend]
+module-name = "itsdani.example_app"
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"

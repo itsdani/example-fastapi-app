@@ -1,0 +1,468 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "annotated-types"
+version = "0.7.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/annotated-types/annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/annotated-types/annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53" },
+]
+
+[[package]]
+name = "anyio"
+version = "4.11.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "idna" },
+    { name = "sniffio" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/anyio/anyio-4.11.0.tar.gz", hash = "sha256:82a8d0b81e318cc5ce71a5f1f8b5c4e63619620b63141ef8c995fa0db95a57c4" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/anyio/anyio-4.11.0-py3-none-any.whl", hash = "sha256:0287e96f4d26d4149305414d4e3bc32f0dcd0862365a4bddea19d7a1ec38c4fc" },
+]
+
+[[package]]
+name = "black"
+version = "25.9.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "click" },
+    { name = "mypy-extensions" },
+    { name = "packaging" },
+    { name = "pathspec" },
+    { name = "platformdirs" },
+    { name = "pytokens" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/black/black-25.9.0.tar.gz", hash = "sha256:0474bca9a0dd1b51791fcc507a4e02078a1c63f6d4e4ae5544b9848c7adfb619" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/black/black-25.9.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:0172a012f725b792c358d57fe7b6b6e8e67375dd157f64fa7a3097b3ed3e2175" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/black/black-25.9.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:3bec74ee60f8dfef564b573a96b8930f7b6a538e846123d5ad77ba14a8d7a64f" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/black/black-25.9.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:b756fc75871cb1bcac5499552d771822fd9db5a2bb8db2a7247936ca48f39831" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/black/black-25.9.0-cp313-cp313-win_amd64.whl", hash = "sha256:846d58e3ce7879ec1ffe816bb9df6d006cd9590515ed5d17db14e17666b2b357" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/black/black-25.9.0-py3-none-any.whl", hash = "sha256:474b34c1342cdc157d307b56c4c65bce916480c4a8f6551fdc6bf9b486a7c4ae" },
+]
+
+[[package]]
+name = "click"
+version = "8.3.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/click/click-8.3.0.tar.gz", hash = "sha256:e7b8232224eba16f4ebe410c25ced9f7875cb5f3263ffc93cc3e8da705e229c4" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/click/click-8.3.0-py3-none-any.whl", hash = "sha256:9b9f285302c6e3064f4330c05f05b81945b2a39544279343e6e7c5f27a9baddc" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/colorama/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/colorama/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6" },
+]
+
+[[package]]
+name = "example-fastapi-app"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "fastapi" },
+    { name = "htpy" },
+    { name = "itsdani-logging" },
+    { name = "pydantic" },
+    { name = "pydantic-settings" },
+    { name = "pyyaml" },
+    { name = "uvicorn" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "black" },
+    { name = "isort" },
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "fastapi", specifier = ">=0.118.0" },
+    { name = "htpy", specifier = ">=25.8.1" },
+    { name = "itsdani-logging", specifier = ">=0.1.1" },
+    { name = "pydantic", specifier = ">=2.11.9" },
+    { name = "pydantic-settings", specifier = ">=2.11.0" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
+    { name = "uvicorn", specifier = ">=0.37.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "black", specifier = ">=25.9.0" },
+    { name = "isort", specifier = ">=6.0.1" },
+    { name = "pytest", specifier = ">=8.4.2" },
+]
+
+[[package]]
+name = "fastapi"
+version = "0.118.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "pydantic" },
+    { name = "starlette" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/fastapi/fastapi-0.118.0.tar.gz", hash = "sha256:5e81654d98c4d2f53790a7d32d25a7353b30c81441be7d0958a26b5d761fa1c8" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/fastapi/fastapi-0.118.0-py3-none-any.whl", hash = "sha256:705137a61e2ef71019d2445b123aa8845bd97273c395b744d5a7dfe559056855" },
+]
+
+[[package]]
+name = "h11"
+version = "0.16.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/h11/h11-0.16.0.tar.gz", hash = "sha256:4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/h11/h11-0.16.0-py3-none-any.whl", hash = "sha256:63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86" },
+]
+
+[[package]]
+name = "htpy"
+version = "25.8.1"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "markupsafe" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/htpy/htpy-25.8.1.tar.gz", hash = "sha256:ba4ac83307cbcbf5cb2b08111f75bb978693ede1624bac75da01208882b3c48d" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/htpy/htpy-25.8.1-py3-none-any.whl", hash = "sha256:184dc98cb39e1157fcc66ce930e5dad222955b2d97c33612277a79d7b5d8ded3" },
+]
+
+[[package]]
+name = "idna"
+version = "3.10"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/idna/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/idna/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3" },
+]
+
+[[package]]
+name = "iniconfig"
+version = "2.1.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/iniconfig/iniconfig-2.1.0.tar.gz", hash = "sha256:3abbd2e30b36733fee78f9c7f7308f2d0050e88f0087fd25c2645f63c773e1c7" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/iniconfig/iniconfig-2.1.0-py3-none-any.whl", hash = "sha256:9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760" },
+]
+
+[[package]]
+name = "isort"
+version = "6.1.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/isort/isort-6.1.0.tar.gz", hash = "sha256:9b8f96a14cfee0677e78e941ff62f03769a06d412aabb9e2a90487b3b7e8d481" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/isort/isort-6.1.0-py3-none-any.whl", hash = "sha256:58d8927ecce74e5087aef019f778d4081a3b6c98f15a80ba35782ca8a2097784" },
+]
+
+[[package]]
+name = "itsdani-logging"
+version = "0.1.5"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "pyyaml" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/itsdani-logging/itsdani_logging-0.1.5.tar.gz", hash = "sha256:2cb6789475f91a3323f0cb451f5b1941c6d070aac01eed209406c2dbbe0dc061" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/itsdani-logging/itsdani_logging-0.1.5-py3-none-any.whl", hash = "sha256:ed482966f7d726ceee0fc3f0bead84928243909974e9bbab0524705fc636ce89" },
+]
+
+[[package]]
+name = "markupsafe"
+version = "3.0.3"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3.tar.gz", hash = "sha256:722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:e1cf1972137e83c5d4c136c43ced9ac51d0e124706ee1c8aa8532c1287fa8795" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:116bb52f642a37c115f517494ea5feb03889e04df47eeff5b130b1808ce7c219" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:133a43e73a802c5562be9bbcd03d090aa5a1fe899db609c29e8c8d815c5f6de6" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ccfcd093f13f0f0b7fdd0f198b90053bf7b2f02a3927a30e63f3ccc9df56b676" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:509fa21c6deb7a7a273d629cf5ec029bc209d1a51178615ddf718f5918992ab9" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:a4afe79fb3de0b7097d81da19090f4df4f8d3a2b3adaa8764138aac2e44f3af1" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-musllinux_1_2_riscv64.whl", hash = "sha256:795e7751525cae078558e679d646ae45574b47ed6e7771863fcc079a6171a0fc" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:8485f406a96febb5140bfeca44a73e3ce5116b2501ac54fe953e488fb1d03b12" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-win32.whl", hash = "sha256:bdd37121970bfd8be76c5fb069c7751683bdf373db1ed6c010162b2a130248ed" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-win_amd64.whl", hash = "sha256:9a1abfdc021a164803f4d485104931fb8f8c1efd55bc6b748d2f5774e78b62c5" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313-win_arm64.whl", hash = "sha256:7e68f88e5b8799aa49c85cd116c932a1ac15caaa3f5db09087854d218359e485" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:218551f6df4868a8d527e3062d0fb968682fe92054e89978594c28e642c43a73" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:3524b778fe5cfb3452a09d31e7b5adefeea8c5be1d43c4f810ba09f2ceb29d37" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:4e885a3d1efa2eadc93c894a21770e4bc67899e3543680313b09f139e149ab19" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:8709b08f4a89aa7586de0aadc8da56180242ee0ada3999749b183aa23df95025" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:b8512a91625c9b3da6f127803b166b629725e68af71f8184ae7e7d54686a56d6" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:9b79b7a16f7fedff2495d684f2b59b0457c3b493778c9eed31111be64d58279f" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-musllinux_1_2_riscv64.whl", hash = "sha256:12c63dfb4a98206f045aa9563db46507995f7ef6d83b2f68eda65c307c6829eb" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:8f71bc33915be5186016f675cd83a1e08523649b0e33efdb898db577ef5bb009" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-win32.whl", hash = "sha256:69c0b73548bc525c8cb9a251cddf1931d1db4d2258e9599c28c07ef3580ef354" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-win_amd64.whl", hash = "sha256:1b4b79e8ebf6b55351f0d91fe80f893b4743f104bff22e90697db1590e47a218" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp313-cp313t-win_arm64.whl", hash = "sha256:ad2cf8aa28b8c020ab2fc8287b0f823d0a7d8630784c31e9ee5edea20f406287" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-macosx_10_13_x86_64.whl", hash = "sha256:eaa9599de571d72e2daf60164784109f19978b327a3910d3e9de8c97b5b70cfe" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:c47a551199eb8eb2121d4f0f15ae0f923d31350ab9280078d1e5f12b249e0026" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:f34c41761022dd093b4b6896d4810782ffbabe30f2d443ff5f083e0cbbb8c737" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:457a69a9577064c05a97c41f4e65148652db078a3a509039e64d3467b9e7ef97" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:e8afc3f2ccfa24215f8cb28dcf43f0113ac3c37c2f0f0806d8c70e4228c5cf4d" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:ec15a59cf5af7be74194f7ab02d0f59a62bdcf1a537677ce67a2537c9b87fcda" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-musllinux_1_2_riscv64.whl", hash = "sha256:0eb9ff8191e8498cca014656ae6b8d61f39da5f95b488805da4bb029cccbfbaf" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:2713baf880df847f2bece4230d4d094280f4e67b1e813eec43b4c0e144a34ffe" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-win32.whl", hash = "sha256:729586769a26dbceff69f7a7dbbf59ab6572b99d94576a5592625d5b411576b9" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-win_amd64.whl", hash = "sha256:bdc919ead48f234740ad807933cdf545180bfbe9342c2bb451556db2ed958581" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314-win_arm64.whl", hash = "sha256:5a7d5dc5140555cf21a6fefbdbf8723f06fcd2f63ef108f2854de715e4422cb4" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-macosx_10_13_x86_64.whl", hash = "sha256:1353ef0c1b138e1907ae78e2f6c63ff67501122006b0f9abad68fda5f4ffc6ab" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:1085e7fbddd3be5f89cc898938f42c0b3c711fdcb37d75221de2666af647c175" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:1b52b4fb9df4eb9ae465f8d0c228a00624de2334f216f178a995ccdcf82c4634" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:fed51ac40f757d41b7c48425901843666a6677e3e8eb0abcff09e4ba6e664f50" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:f190daf01f13c72eac4efd5c430a8de82489d9cff23c364c3ea822545032993e" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:e56b7d45a839a697b5eb268c82a71bd8c7f6c94d6fd50c3d577fa39a9f1409f5" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-musllinux_1_2_riscv64.whl", hash = "sha256:f3e98bb3798ead92273dc0e5fd0f31ade220f59a266ffd8a4f6065e0a3ce0523" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:5678211cb9333a6468fb8d8be0305520aa073f50d17f089b5b4b477ea6e67fdc" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-win32.whl", hash = "sha256:915c04ba3851909ce68ccc2b8e2cd691618c4dc4c4232fb7982bca3f41fd8c3d" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-win_amd64.whl", hash = "sha256:4faffd047e07c38848ce017e8725090413cd80cbc23d86e55c587bf979e579c9" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/markupsafe/markupsafe-3.0.3-cp314-cp314t-win_arm64.whl", hash = "sha256:32001d6a8fc98c8cb5c947787c5d08b0a50663d139f1305bac5885d98d9b40fa" },
+]
+
+[[package]]
+name = "mypy-extensions"
+version = "1.1.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/mypy-extensions/mypy_extensions-1.1.0.tar.gz", hash = "sha256:52e68efc3284861e772bbcd66823fde5ae21fd2fdb51c62a211403730b916558" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/mypy-extensions/mypy_extensions-1.1.0-py3-none-any.whl", hash = "sha256:1be4cccdb0f2482337c4743e60421de3a356cd97508abadd57d47403e94f5505" },
+]
+
+[[package]]
+name = "packaging"
+version = "25.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/packaging/packaging-25.0.tar.gz", hash = "sha256:d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/packaging/packaging-25.0-py3-none-any.whl", hash = "sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484" },
+]
+
+[[package]]
+name = "pathspec"
+version = "0.12.1"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pathspec/pathspec-0.12.1.tar.gz", hash = "sha256:a482d51503a1ab33b1c67a6c3813a26953dbdc71c31dacaef9a838c4e29f5712" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pathspec/pathspec-0.12.1-py3-none-any.whl", hash = "sha256:a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08" },
+]
+
+[[package]]
+name = "platformdirs"
+version = "4.4.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/platformdirs/platformdirs-4.4.0.tar.gz", hash = "sha256:ca753cf4d81dc309bc67b0ea38fd15dc97bc30ce419a7f58d13eb3bf14c4febf" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/platformdirs/platformdirs-4.4.0-py3-none-any.whl", hash = "sha256:abd01743f24e5287cd7a5db3752faf1a2d65353f38ec26d98e25a6db65958c85" },
+]
+
+[[package]]
+name = "pluggy"
+version = "1.6.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pluggy/pluggy-1.6.0.tar.gz", hash = "sha256:7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pluggy/pluggy-1.6.0-py3-none-any.whl", hash = "sha256:e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746" },
+]
+
+[[package]]
+name = "pydantic"
+version = "2.11.9"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "annotated-types" },
+    { name = "pydantic-core" },
+    { name = "typing-extensions" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic/pydantic-2.11.9.tar.gz", hash = "sha256:6b8ffda597a14812a7975c90b82a8a2e777d9257aba3453f973acd3c032a18e2" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic/pydantic-2.11.9-py3-none-any.whl", hash = "sha256:c42dd626f5cfc1c6950ce6205ea58c93efa406da65f479dcb4029d5934857da2" },
+]
+
+[[package]]
+name = "pydantic-core"
+version = "2.33.2"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2.tar.gz", hash = "sha256:7cb8bc3605c29176e1b105350d2e6474142d7c1bd1d9327c4a9bdb46bf827acc" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:1082dd3e2d7109ad8b7da48e1d4710c8d06c253cbc4a27c1cff4fbcaa97a9e3f" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:f517ca031dfc037a9c07e748cefd8d96235088b83b4f4ba8939105d20fa1dcd6" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0a9f2c9dd19656823cb8250b0724ee9c60a82f3cdf68a080979d13092a3b0fef" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:2b0a451c263b01acebe51895bfb0e1cc842a5c666efe06cdf13846c7418caa9a" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:1ea40a64d23faa25e62a70ad163571c0b342b8bf66d5fa612ac0dec4f069d916" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:0fb2d542b4d66f9470e8065c5469ec676978d625a8b7a363f07d9a501a9cb36a" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9fdac5d6ffa1b5a83bca06ffe7583f5576555e6c8b3a91fbd25ea7780f825f7d" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:04a1a413977ab517154eebb2d326da71638271477d6ad87a769102f7c2488c56" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:c8e7af2f4e0194c22b5b37205bfb293d166a7344a5b0d0eaccebc376546d77d5" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-musllinux_1_1_armv7l.whl", hash = "sha256:5c92edd15cd58b3c2d34873597a1e20f13094f59cf88068adb18947df5455b4e" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:65132b7b4a1c0beded5e057324b7e16e10910c106d43675d9bd87d4f38dde162" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-win32.whl", hash = "sha256:52fb90784e0a242bb96ec53f42196a17278855b0f31ac7c3cc6f5c1ec4811849" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-win_amd64.whl", hash = "sha256:c083a3bdd5a93dfe480f1125926afcdbf2917ae714bdb80b36d34318b2bec5d9" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313-win_arm64.whl", hash = "sha256:e80b087132752f6b3d714f041ccf74403799d3b23a72722ea2e6ba2e892555b9" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:61c18fba8e5e9db3ab908620af374db0ac1baa69f0f32df4f61ae23f15e586ac" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:95237e53bb015f67b63c91af7518a62a8660376a6a0db19b89acc77a4d6199f5" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-core/pydantic_core-2.33.2-cp313-cp313t-win_amd64.whl", hash = "sha256:c2fc0a768ef76c15ab9238afa6da7f69895bb5d1ee83aeea2e3509af4472d0b9" },
+]
+
+[[package]]
+name = "pydantic-settings"
+version = "2.11.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-settings/pydantic_settings-2.11.0.tar.gz", hash = "sha256:d0e87a1c7d33593beb7194adb8470fc426e95ba02af83a0f23474a04c9a08180" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pydantic-settings/pydantic_settings-2.11.0-py3-none-any.whl", hash = "sha256:fe2cea3413b9530d10f3a5875adffb17ada5c1e1bab0b2885546d7310415207c" },
+]
+
+[[package]]
+name = "pygments"
+version = "2.19.2"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pygments/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pygments/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b" },
+]
+
+[[package]]
+name = "pytest"
+version = "8.4.2"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "iniconfig" },
+    { name = "packaging" },
+    { name = "pluggy" },
+    { name = "pygments" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pytest/pytest-8.4.2.tar.gz", hash = "sha256:86c0d0b93306b961d58d62a4db4879f27fe25513d4b969df351abdddb3c30e01" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pytest/pytest-8.4.2-py3-none-any.whl", hash = "sha256:872f880de3fc3a5bdc88a11b39c9710c3497a547cfa9320bc3c5e62fbf272e79" },
+]
+
+[[package]]
+name = "python-dotenv"
+version = "1.1.1"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/python-dotenv/python_dotenv-1.1.1.tar.gz", hash = "sha256:a8a6399716257f45be6a007360200409fce5cda2661e3dec71d23dc15f6189ab" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/python-dotenv/python_dotenv-1.1.1-py3-none-any.whl", hash = "sha256:31f23644fe2602f88ff55e1f5c79ba497e01224ee7737937930c448e4d0e24dc" },
+]
+
+[[package]]
+name = "pytokens"
+version = "0.1.10"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pytokens/pytokens-0.1.10.tar.gz", hash = "sha256:c9a4bfa0be1d26aebce03e6884ba454e842f186a59ea43a6d3b25af58223c044" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pytokens/pytokens-0.1.10-py3-none-any.whl", hash = "sha256:db7b72284e480e69fb085d9f251f66b3d2df8b7166059261258ff35f50fb711b" },
+]
+
+[[package]]
+name = "pyyaml"
+version = "6.0.3"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3.tar.gz", hash = "sha256:d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:8da9669d359f02c0b91ccc01cac4a67f16afec0dac22c2ad09f46bee0697eba8" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:2283a07e2c21a2aa78d9c4442724ec1eb15f5e42a723b99cb3d822d48f5f7ad1" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:ee2922902c45ae8ccada2c5b501ab86c36525b883eff4255313a253a3160861c" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:a33284e20b78bd4a18c8c2282d549d10bc8408a2a7ff57653c0cf0b9be0afce5" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:0f29edc409a6392443abf94b9cf89ce99889a1dd5376d94316ae5145dfedd5d6" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:f7057c9a337546edc7973c0d3ba84ddcdf0daa14533c2065749c9075001090e6" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:eda16858a3cab07b80edaf74336ece1f986ba330fdb8ee0d6c0d68fe82bc96be" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-win32.whl", hash = "sha256:d0eae10f8159e8fdad514efdc92d74fd8d682c933a6dd088030f3834bc8e6b26" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-win_amd64.whl", hash = "sha256:79005a0d97d5ddabfeeea4cf676af11e647e41d81c9a7722a193022accdb6b7c" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp313-cp313-win_arm64.whl", hash = "sha256:5498cd1645aa724a7c71c8f378eb29ebe23da2fc0d7a08071d89469bf1d2defb" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-macosx_10_13_x86_64.whl", hash = "sha256:8d1fab6bb153a416f9aeb4b8763bc0f22a5586065f86f7664fc23339fc1c1fac" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:34d5fcd24b8445fadc33f9cf348c1047101756fd760b4dacb5c3e99755703310" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:501a031947e3a9025ed4405a168e6ef5ae3126c59f90ce0cd6f2bfc477be31b7" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:b3bc83488de33889877a0f2543ade9f70c67d66d9ebb4ac959502e12de895788" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c458b6d084f9b935061bc36216e8a69a7e293a2f1e68bf956dcd9e6cbcd143f5" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:7c6610def4f163542a622a73fb39f534f8c101d690126992300bf3207eab9764" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:5190d403f121660ce8d1d2c1bb2ef1bd05b5f68533fc5c2ea899bd15f4399b35" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-win_amd64.whl", hash = "sha256:4a2e8cebe2ff6ab7d1050ecd59c25d4c8bd7e6f400f5f82b96557ac0abafd0ac" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314-win_arm64.whl", hash = "sha256:93dda82c9c22deb0a405ea4dc5f2d0cda384168e466364dec6255b293923b2f3" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-macosx_10_13_x86_64.whl", hash = "sha256:02893d100e99e03eda1c8fd5c441d8c60103fd175728e23e431db1b589cf5ab3" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:c1ff362665ae507275af2853520967820d9124984e0f7466736aea23d8611fba" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:6adc77889b628398debc7b65c073bcb99c4a0237b248cacaf3fe8a557563ef6c" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:a80cb027f6b349846a3bf6d73b5e95e782175e52f22108cfa17876aaeff93702" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:00c4bdeba853cc34e7dd471f16b4114f4162dc03e6b7afcc2128711f0eca823c" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:66e1674c3ef6f541c35191caae2d429b967b99e02040f5ba928632d9a7f0f065" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:16249ee61e95f858e83976573de0f5b2893b3677ba71c9dd36b9cf8be9ac6d65" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-win_amd64.whl", hash = "sha256:4ad1906908f2f5ae4e5a8ddfce73c320c2a1429ec52eafd27138b7f1cbe341c9" },
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/pyyaml/pyyaml-6.0.3-cp314-cp314t-win_arm64.whl", hash = "sha256:ebc55a14a21cb14062aa4162f906cd962b28e2e9ea38f9b4391244cd8de4ae0b" },
+]
+
+[[package]]
+name = "sniffio"
+version = "1.3.1"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/sniffio/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/sniffio/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2" },
+]
+
+[[package]]
+name = "starlette"
+version = "0.48.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "anyio" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/starlette/starlette-0.48.0.tar.gz", hash = "sha256:7e8cee469a8ab2352911528110ce9088fdc6a37d9876926e73da7ce4aa4c7a46" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/starlette/starlette-0.48.0-py3-none-any.whl", hash = "sha256:0764ca97b097582558ecb498132ed0c7d942f233f365b86ba37770e026510659" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.15.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/typing-extensions/typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/typing-extensions/typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548" },
+]
+
+[[package]]
+name = "typing-inspection"
+version = "0.4.2"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/typing-inspection/typing_inspection-0.4.2.tar.gz", hash = "sha256:ba561c48a67c5958007083d386c3295464928b01faa735ab8547c5692e87f464" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/typing-inspection/typing_inspection-0.4.2-py3-none-any.whl", hash = "sha256:4ed1cacbdc298c220f1bd249ed5287caa16f34d44ef4e9c3d0cbad5b521545e7" },
+]
+
+[[package]]
+name = "uvicorn"
+version = "0.37.0"
+source = { registry = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/simple/" }
+dependencies = [
+    { name = "click" },
+    { name = "h11" },
+]
+sdist = { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/uvicorn/uvicorn-0.37.0.tar.gz", hash = "sha256:4115c8add6d3fd536c8ee77f0e14a7fd2ebba939fed9b02583a97f80648f9e13" }
+wheels = [
+    { url = "https://us-east1-python.pkg.dev/home-automation-213900/itsdani-virtual/uvicorn/uvicorn-0.37.0-py3-none-any.whl", hash = "sha256:913b2b88672343739927ce381ff9e2ad62541f9f8289664fa1d1d3803fa2ce6c" },
+]

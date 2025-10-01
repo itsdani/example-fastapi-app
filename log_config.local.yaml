@@ -1,0 +1,21 @@
+version: 1
+formatters:
+  custom_console:
+    (): itsdani.logging.ColoredExtraConsoleLogFormatter
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: custom_console
+    stream: ext://sys.stdout
+loggers:
+  uvicorn.access:
+    level: INFO
+    handlers: [console]
+    propagate: False
+  websockets:
+    level: INFO
+    handlers: [console]
+    propagate: False
+root:
+  level: INFO
+  handlers: [console]

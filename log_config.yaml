@@ -1,0 +1,27 @@
+version: 1
+formatters:
+  json:
+    class: itsdani.logging.ExtraLogJsonFormatter
+  accesslog:
+    class: itsdani.logging.HttpAccessLogJsonFormatter
+handlers:
+  json:
+    class: logging.StreamHandler
+    formatter: json
+    stream: ext://sys.stdout
+  accesslog:
+    class: logging.StreamHandler
+    formatter: accesslog
+    stream: ext://sys.stdout
+loggers:
+  uvicorn.access:
+    level: INFO
+    handlers: [accesslog]
+    propagate: False
+  azure.core.pipeline.policies.http_logging_policy:
+    level: WARNING
+    handlers: [json]
+    propagate: False
+root:
+  level: INFO
+  handlers: [json]
